@@ -36,7 +36,11 @@ interface IMission {
 }
 
 
-const myMisson: IMission = {
+const myMission: IMission = {
+    launch_date_local:'sssss',
+    launch_site:{
+        site_name_long:'sss'
+    },
     mission_name: 'skjdfhksjdhf',
     links: {
         article_link: 'sdfsdf',
@@ -74,7 +78,7 @@ const myMisson: IMission = {
 
     }
 }
-myMisson.rocket.first_stage.cores.push({fl})
+myMission.rocket.first_stage.cores.push()
 // ---------------------------------------------------------------------------—————————
 // 2) протипізувати функції:
 interface IUser {
